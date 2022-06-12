@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Friend } from '../friend.model';
 
 @Component({
   selector: 'app-friend-add',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FriendAddComponent implements OnInit {
 
+  inputInfo : Friend = new Friend("","","");
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onAddFriend(){
+    console.log("add friend");
+    console.log(this.inputInfo);
+
   }
 
 }

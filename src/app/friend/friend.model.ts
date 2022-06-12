@@ -1,4 +1,4 @@
-export class Fiend{
+export class Friend{
     public name : string;
     public email : string;
     public contact : string;
