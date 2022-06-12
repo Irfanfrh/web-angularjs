@@ -5,14 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FriendComponent } from './friend/friend.component';
-import { FriendAddComponent } from './friend/friend/friend-add/friend-add.component';
+import { FriendAddComponent } from './friend/friend-add/friend-add.component';
+import { FriendListComponent } from './friend/friend-list/friend-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FriendComponent,
-    FriendAddComponent
-  ],
+    FriendAddComponent,
+    FriendListComponent,  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
